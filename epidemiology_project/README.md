@@ -7,8 +7,10 @@ This is meant to work on Spyder, a IDE provided by Anaconda.
 
 Here are the directions to run the simulation:
 On the python console, type:
+	
 	m = read_map('nyc_map.csv')
 	m.display()
+
 this should dusplay a map of nyc, all in green.
 Every point in the map represents a Cell. Each cell is either
 -green, for being susceptible to disease
