@@ -17,7 +17,7 @@ Every point in the map represents a Cell. Each cell is either
 -gray, for being immune
 -Red for infected
 
-To infect a cell, type this on Pythin consose
+To infect a cell, type this on Python console
 
 	m.cells[(39, 82)].infect()
 
@@ -27,7 +27,7 @@ After 1, or any amount of cells are set to be infected, we type
 
 	m.time_step()
 
-This sumulates that time has passed, and wil display the nyc map after the 
+This simulates that time has passed, and wil display the nyc map after the 
 infection spreads. 
 repeating
 
